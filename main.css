@@ -19,7 +19,6 @@ html {
   position: relative;
 }
 
-/* Row 1: */
 .app__container {
   height: 100%;
   background-color: var(--background-color-light-mode);
@@ -201,6 +200,8 @@ html {
   font-size: 2.4rem;
 }
 
+/* 2.2 main content */
+
 /* 3. MUSIC PLAYER */
 .playing-bar {
   height: 100%;
@@ -210,8 +211,6 @@ html {
 .player {
   height: 100%;
   margin-top: 15px;
-  /* overflow: hidden; */
-  /* overflow-y: auto; */
 }
 
 .player .icon-pause {
@@ -232,7 +231,6 @@ html {
   background-color: #fff;
   width: 100%;
   border-bottom: 1px solid #ebebeb;
-  /* height: 350px; */
 }
 
 /* 3.1.1 dashboard header */
@@ -313,7 +311,7 @@ header h2 {
   cursor: pointer;
 }
 
-/* 3.2 PLAYLIST */
+/* 3.2 playlist */
 .player__playlist {
   height: 60%;
   overflow: hidden;
